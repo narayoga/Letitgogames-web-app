@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Quicksand:wght@300;500&display=swap');
+
+Link, a{
+  text-decoration: none;
+  color: inherit;
+}
+Link:hover{
+  color: white;
+}
+
+button{
+  font-family: 'Quicksand', sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.container{
+  width: 80% !important;
+}
+
+.no-space{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.section {
+  background-color: #303030;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
